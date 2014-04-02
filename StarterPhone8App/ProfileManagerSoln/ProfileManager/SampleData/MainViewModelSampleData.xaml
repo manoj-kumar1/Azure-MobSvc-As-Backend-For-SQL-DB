@@ -1,0 +1,14 @@
+﻿<vm:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:ProfileManager.ViewModels"
+    SampleProperty="Sample Text Property Value">
+
+    <vm:MainViewModel.Items>
+        <vm:ItemViewModel ID="0" Name="Manoj" Email="manoj@gmail.com" Phone="9898978788" />
+        <vm:ItemViewModel ID="1" Name="Manoj" Email="manoj@gmail.com" Phone="9898978788" />
+        <vm:ItemViewModel ID="2" Name="Manoj" Email="manoj@gmail.com" Phone="9898978788" />
+        <vm:ItemViewModel ID="3" Name="Manoj" Email="manoj@gmail.com" Phone="9898978788" />
+    </vm:MainViewModel.Items>
+
+</vm:MainViewModel>
